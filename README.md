@@ -83,6 +83,11 @@ Caso a limpeza dos dados seja concluída antes do prazo previsto, a equipe inici
 ## 📊 Fonte dos dados
 
 - Microdados do ENEM 2025 (INEP)
+- Microdados do ENEM 2024 (INEP)
+- Microdados do ENEM 2023 (INEP)
+- Microdados do ENEM 2022 (INEP)
+- Microdados do ENEM 2021 (INEP)
+
 
 ---
 
