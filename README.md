@@ -13,7 +13,7 @@ Nesta etapa inicial, o grupo pretende investigar diferenças entre as regiões b
 
 ## 🎯 Objetivos da primeira etapa
 
-- Estudar os Microdados do ENEM 2025;
+- Estudar os Microdados do ENEM  de 2021 a 2025;
 - Realizar a limpeza e o tratamento dos dados;
 - Pesquisar informações sobre os municípios com melhores desempenhos entre 2021 e 2025;
 - Definir o escopo final do projeto com base nos dados disponíveis e nos insights obtidos.
