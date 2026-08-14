@@ -8,3 +8,4 @@ __pycache__/
 *.csv
 *.log
 *.tmp
+db/observa_brasil.sql
