@@ -44,7 +44,7 @@ O ENEM é uma das fontes que usamos, não o produto. O que entregamos é a leitu
 - Power BI: modelagem, visualização e publicação dos painéis interativos.
 - Git: controle de versões.
 - GitHub: hospedagem do repositório.
-- Lovable: criação do site a partir de prompts — sem exigir nenhum conhecimento em programação.
+- Lovable: criação do site, a partir de prompts.
 
 ---
 
