@@ -76,8 +76,8 @@ O ENEM é uma das fontes que usamos, não o produto. O que entregamos é a leitu
 ## 📊 Fonte dos Dados 
 
 - Microdados do ENEM 2024 e 2025 (INEP): 18.287.432 linhas
-- Censo Escolar de 2024 e 2025 (INEP): 5.570 registros 
-- Censo Demográfico 2022 (IBGE): 429.737 linhas
+- Censo Escolar de 2024 e 2025 (INEP): 429.737 registros 
+- Censo Demográfico 2022 (IBGE): 5.570 itens
 
 ---
 
