@@ -1,6 +1,8 @@
 # 📊 Inteligência Educacional e Desigualdade
 ### Desempenho nas Provas do ENEM (de 2024 a 2025)
 
+---
+
 ## ❓ Pergunta Central do Negócio
 
 No Brasil, quais mercados apresentam maior potencial para investimentos em educação tecnológica?
@@ -57,8 +59,7 @@ O ENEM é uma das fontes que usamos, não o produto. O que entregamos é a leitu
 │   ├── processed/
 │   └── Raw/
 │
-|── db
-│   ├── inserts/
+|── db/inserts/
 |
 ├── notebooks/
 |
@@ -66,7 +67,7 @@ O ENEM é uma das fontes que usamos, não o produto. O que entregamos é a leitu
 │
 └── README.md
 |
-└── processamento dados.py
+└── processamento_dados.py
 │
 └── requirements.txt
 ```
