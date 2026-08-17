@@ -1,106 +1,95 @@
 # 📊 Inteligência Educacional e Desigualdade
-### Análise dos Microdados do ENEM 2025
+### Desempenho nas Provas do ENEM (de 2024 a 2025)
 
-## 📖 Sobre o projeto
+## ❓ Pergunta Central do Negócio
 
-Este projeto tem como objetivo analisar os Microdados do ENEM 2025 para identificar padrões relacionados ao desempenho dos estudantes brasileiros e compreender como fatores socioeconômicos e regionais podem estar associados aos resultados obtidos.
-
-Nesta etapa inicial, o grupo pretende investigar diferenças entre as regiões brasileiras, com foco especial no Nordeste e Sudeste, além de avaliar aspectos relacionados às classes sociais e outros indicadores presentes nos microdados.
-
-> **Observação:** O objetivo final do projeto será definido após a conclusão da etapa de limpeza e tratamento dos dados e da pesquisa exploratória realizada pela equipe.
+No Brasil, quais mercados apresentam maior potencial para investimentos em educação tecnológica?
 
 ---
 
-## 🎯 Objetivos da primeira etapa
+## 📖 Sobre o Projeto
 
-- Estudar os Microdados do ENEM  de 2021 a 2025;
-- Realizar a limpeza e o tratamento dos dados;
-- Pesquisar informações sobre os municípios com melhores desempenhos entre 2021 e 2025;
-- Definir o escopo final do projeto com base nos dados disponíveis e nos insights obtidos.
+Observa Brasil é uma empresa de inteligência de dados educacionais. Reunimos as principais bases públicas do país — infraestrutura escolar, indicadores socioeconômicos e desempenho educacional — em um único modelo analítico.
+
+O ENEM é uma das fontes que usamos, não o produto. O que entregamos é a leitura cruzada dessas bases: onde falta internet, laboratório e banda larga; quantas escolas e quais redes de ensino são afetadas; e a distância de uma UF em relação à média da sua região.
+
+---
+
+## 🎯 Objetivos
+
+- Queremos identificar padrões de desempenho dos estudantes ao longo dos últimos dois anos, compreender como fatores socioeconômicos e regionais influenciam os resultados e fornecer evidências que apoiem a formulação de políticas públicas voltadas à redução das desigualdades educacionais.
+
+- Esta análise tem como foco especial a comparação entre as regiões Norte e Sudeste, investigando indicadores como desempenho por UF, rede de ensino e perfil socioeconômico dos participantes, além de outros fatores presentes nos microdados.
 
 ---
 
 ## 👥 Equipe
 
-| Integrante | Responsabilidade |
-|------------|------------------|
-| Bruno | Limpeza e tratamento dos dados |
-| Hugo | Limpeza e tratamento dos dados e criação do repositório no GitHub |
-| Jéssica | Limpeza e tratamento dos dados |
-| Valeska | Pesquisa sobre os municípios com melhor desempenho (2021–2025) |
-| Larissa | Pesquisa sobre os municípios com melhor desempenho (2021–2025) |
-| Jaciara | Pesquisa sobre os municípios com melhor desempenho (2021–2025) |
+| Integrante | Responsabilidade | Perfil |
+|------------|------------------|------------------|
+| Bruno | Limpeza e tratamento dos dados | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bruno-de-mello-canuto/) |
+| Hugo | Limpeza e tratamento dos dados e criação do repositório no GitHub | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hugo-guedes0/) |
+| Jaciara | Pesquisa sobre os municípios com melhor desempenho (2024–2025) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaciara-faustino/) |
+| Jessica | Limpeza e tratamento dos dados | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rfjessica/) |
+| Larissa | Pesquisa sobre os municípios com melhor desempenho (2024–2025)| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/larissapereirapy/) |
+| Valeska | Pesquisa sobre os municípios com melhor desempenho (2024–2025)| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/valeska-torres/) |
 
 ---
 
-## 📅 Cronograma
+## 🛠️ Ferramentas Utilizadas
 
-### Até 10/08
-
-- Limpeza e tratamento dos dados;
-- Pesquisa sobre os municípios com melhor desempenho entre 2021 e 2025.
-
-### Próxima etapa
-
-Caso a limpeza dos dados seja concluída antes do prazo previsto, a equipe iniciará:
-
-- Análise Exploratória dos Dados (EDA) em Python;
-- Levantamento de hipóteses;
-- Definição do objetivo final do projeto.
+- Excel: conferência amostral, dicionário de variáveis e validação de indicadores
+- Python: limpeza, padronização e enriquecimento dos dados relativos ao ENEM, Censo Escolar e IBGE.
+- MySQL Workbench: armazenamento das bases e manutenção de registros.
+- Power BI: modelagem, visualização e publicação dos painéis interativos.
+- Git: controle de versões.
+- GitHub: hospedagem do repositório.
+- Lovable: criação do site a partir de prompts — sem exigir nenhum conhecimento em programação.
 
 ---
 
-## 🛠️ Ferramentas
-
-- Python
-- Excel
-- Power BI
-- Git
-- GitHub
-
----
-
-## 📂 Estrutura do projeto
+## 📂 Estrutura do Projeto
 
 ```text
 📦 projeto-enem
 │
-├── data/
-│   ├── raw/
-│   └── processed/
+├── Data/
+│   ├── processed/
+│   └── Raw/
 │
+|── db
+│   ├── inserts/
+|
 ├── notebooks/
-│
-├── dashboard/
-│
-├── docs/
+|
+├── report/
 │
 └── README.md
+|
+└── processamento dados.py
+│
+└── requirements.txt
 ```
+---
+
+## 📊 Fonte dos Dados 
+
+- Microdados do ENEM 2024 e 2025 (INEP): 18.287.432 linhas
+- Censo Escolar de 2024 e 2025 (INEP): 5.570 registros 
+- Censo Demográfico 2022 (IBGE): 429.737 linhas
 
 ---
 
-## 📊 Fonte dos dados
+## 🚀 Principais Etapas
 
-- Microdados do ENEM 2025 (INEP)
-- Microdados do ENEM 2024 (INEP)
-- Microdados do ENEM 2023 (INEP)
-- Microdados do ENEM 2022 (INEP)
-- Microdados do ENEM 2021 (INEP)
-
-
----
-
-## 🚀 Próximos passos
-
-- Finalizar a limpeza e o tratamento dos dados;
-- Realizar a análise exploratória;
-- Definir a pergunta de negócio do projeto;
-- Desenvolver o dashboard no Power BI;
-- Apresentar os principais insights encontrados.
+- Coleta, limpeza, análise exploratória e tratamento dos dados;
+- Definição das questões de negócio do projeto;
+- Desenvolvimento do dashboard no Power BI;
+- Organização dos principais insights encontrados.
+- Criação e manutenção do site da empresa.
 
 ---
 
-## 📌 Status do projeto
+## 📌 Status do Projeto
 
 🚧 Em desenvolvimento.
