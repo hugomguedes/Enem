@@ -11,7 +11,7 @@ No Brasil, quais mercados apresentam maior potencial para investimentos em educa
 
 ## 📖 Sobre o Projeto
 
-Observa Brasil é uma empresa de inteligência de dados educacionais. Reunimos as principais bases públicas do país — infraestrutura escolar, indicadores socioeconômicos e desempenho educacional — em um único modelo analítico.
+Observa Brasil é uma empresa de inteligência de dados educacionais, fundada em agosto de 2026. Reunimos as principais bases públicas do país — infraestrutura escolar, indicadores socioeconômicos e desempenho educacional — em um único modelo analítico.
 
 O ENEM é uma das fontes que usamos, não o produto. O que entregamos é a leitura cruzada dessas bases: onde falta internet, laboratório e banda larga; quantas escolas e quais redes de ensino são afetadas; e a distância de uma UF em relação à média da sua região.
 
@@ -40,7 +40,7 @@ O ENEM é uma das fontes que usamos, não o produto. O que entregamos é a leitu
 
 ## 🛠️ Ferramentas Utilizadas
 
-- Excel: conferência amostral, dicionário de variáveis e validação de indicadores
+- Excel: conferência amostral, dicionário de variáveis e validação de indicadores.
 - Python: limpeza, padronização e enriquecimento dos dados relativos ao ENEM, Censo Escolar e IBGE.
 - MySQL Workbench: armazenamento das bases e manutenção de registros.
 - Power BI: modelagem, visualização e publicação dos painéis interativos.
@@ -83,9 +83,9 @@ O ENEM é uma das fontes que usamos, não o produto. O que entregamos é a leitu
 
 ## 🚀 Principais Etapas
 
-- Coleta, limpeza, análise exploratória e tratamento dos dados;
-- Definição das questões de negócio do projeto;
-- Desenvolvimento do dashboard no Power BI;
+- Coleta, limpeza, análise exploratória e tratamento dos dados.
+- Definição das questões de negócio do projeto.
+- Desenvolvimento do dashboard no Power BI.
 - Organização dos principais insights encontrados.
 - Criação e manutenção do site da empresa.
 
