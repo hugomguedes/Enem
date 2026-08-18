@@ -93,4 +93,4 @@ O ENEM é uma das fontes que usamos, não o produto. O que entregamos é a leitu
 
 ## 📌 Status do Projeto
 
-🚧 Em desenvolvimento.
+FINALIZADO.
